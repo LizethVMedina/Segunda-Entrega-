@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8f8f8;
+}
+
+.logo1 h4 {
+  margin: 0;
+}
+
+.btnHead {
+  display: flex;
+  justify-content: flex-end; 
+  font-size: 16px;
+}
+
+.btnlogin, .btnjoinUs {
+  padding: 5px 25px;
+  border: none;
+}
+
+.btnlogin {
+  color: #96BB7C;
+  background-color: transparent;
+  margin-right: 15px;
+}
+
+.btnjoinUs {
+  color: #FFFFFF;
+  background-color: #96BB7C;
+}
+
+.caja1 {
+  display: flex;
+  background-color: #DDF4FF;
+  padding: 50px;
+}
+
+.txtBtn {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.txt1, .txt2, .txt3 {
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+
+.txt1 {
+  color: #96BB7C;
+  margin-top: 135px;
+}
+
+.txt2 {
+  color: #252B42;
+  font-size: 2em;
+}
+
+.txt3 {
+  color: #737373;
+}
+
+.imagen img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.btn {
+  display: flex;
+  margin-top: 20px;
+}
+
+.btnInfo, .btnLeerMas {
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.btnInfo {
+  color: white;
+  background-color: #96BB7C;
+  margin-right: 15px;
+  border: none;
+}
+
+.btnLeerMas {
+  background-color: transparent;
+  border-color: #96BB7C;
+  border-width: 1px;
+}
+
+.caja2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF;
+  padding: 20px 0;
+}
+
+.bloq1, .bloq2, .bloq3, .bloq4 {
+  text-align: center;
+}
+
+.num {
+  font-size: 2em;
+  color: #96BB7C;
+  margin-bottom: 0;
+}
+
+small {
+  font-size: 0.8em;
+  color: #252B42;
+}
+
+.caja3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFF2F3;
+  padding: 50px 0;
+}
+
+.titulo h2 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.tarjeta1, .tarjeta2, .tarjeta3 {
+  background-color: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 300px;
+  flex: 1;
+  margin: 0 10px;
+  text-align:left ;
+}
+
+.tarjeta1 img, .tarjeta2 img, .tarjeta3 img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  
+}
+
+hr {
+  border-color: red;
+  margin-right: 200px;
+}
+
+.caja4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FAFAFA;
+  padding: 10px 50px;
+  margin-top: 150px;
+}
+
+.enlaces a {
+  margin-left: 15px;
+}
+
+.circulo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
